@@ -1,0 +1,16 @@
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\HP Simulator.exe
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\HP Simulator.deps.json
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\HP Simulator.runtimeconfig.json
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\HP Simulator.runtimeconfig.dev.json
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\HP Simulator.dll
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\ref\HP Simulator.dll
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\bin\Debug\net5.0\HP Simulator.pdb
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.csproj.AssemblyReference.cache
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.AssemblyInfoInputs.cache
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.AssemblyInfo.cs
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.csproj.CoreCompileInputs.cache
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.dll
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\ref\HP Simulator.dll
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.pdb
+C:\Mano Workspace\Web API\HP Simulator\HP Simulator\obj\Debug\net5.0\HP Simulator.genruntimeconfig.cache
