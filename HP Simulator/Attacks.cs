@@ -1,8 +1,5 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HP_Simulator
 {
@@ -32,8 +29,7 @@ namespace HP_Simulator
             var attackDamage = AttacksList[randomAttack].AttackDamage; // attackDamage of the Random attack
 
             // Attack warning message
-            var message = (attackDamage == 1) ? "Normal attack incoming" : $"Watch out special attack incoming: {AttacksList[randomAttack].AttackName}";
-            Console.Write(message);
+            Console.Write( (attackDamage == 1) ? "Normal attack incoming" : $"Watch out special attack incoming: {AttacksList[randomAttack].AttackName}");
 
             return attackDamage;
         }
