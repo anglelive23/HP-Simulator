@@ -10,20 +10,23 @@ namespace HP_Simulator
     {
         public string AttackName { get; set; }
         public int AttackDamage { get; set; }
-        public List<Attacks> AttacksList { get; set; }
+        public List<Attacks> AttacksList { get; set; } = new List<Attacks>();
+
+        public Attacks()
+        {
+
+        }
 
         public Attacks(bool registerAttacks)
         {
-            if (registerAttacks)
-                RegisterAttacks();
+            RegisterAttacks();
         }
 
         public void RegisterAttacks()
         {
-            AttacksList = new List<Attacks>();
-            AttacksList.Add(new Attacks(false) { AttackDamage = 1, AttackName = "Normal Attack"});
-            AttacksList.Add(new Attacks(false) { AttackDamage = 10, AttackName = "Whirlwind" });
-            AttacksList.Add(new Attacks(false) { AttackDamage = 20, AttackName = "Blitz Rush"});
+            AttacksList.Add(new Attacks() { AttackDamage = 1, AttackName = "Normal Attack"});
+            AttacksList.Add(new Attacks() { AttackDamage = 10, AttackName = "Whirlwind" });
+            AttacksList.Add(new Attacks() { AttackDamage = 20, AttackName = "Blitz Rush"});
         }
 
         public int GetRandomAttackDamage()
