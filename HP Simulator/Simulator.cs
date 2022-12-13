@@ -10,9 +10,9 @@ namespace HP_Simulator
     internal class Simulator
     {
         public Attacks AttackModel { get; set; }
-        public Simulator(Attacks attacks)
+        public Simulator()
         {
-            this.AttackModel = attacks; // Get the Attacks
+            AttackModel = new Attacks(true); // register Attacks upon initilizing
             Simulate(); // Simulate the game
         }
 
@@ -35,6 +35,25 @@ namespace HP_Simulator
                 }
 
             }
+        }
+
+        public async Task<bool> IsDodgedAttackAsync()
+        {
+            // assign random buttons to enter in short time
+            char[] buttonsArray = new char[] { 'Q', 'W', 'E', 'A', 'S', 'D' };
+            // get random pattern
+            Random randomizer = new Random();
+            string randomPattern = "";
+            while (randomPattern.Length < 7)
+            {
+                randomPattern += buttonsArray[randomizer.Next(0, buttonsArray.Length)];
+            }
+            // print the randomPattern
+            Console.WriteLine($"{randomPattern}");
+            // Get the user input
+            var userInput = Console.ReadLine();
+            // validate userInput
+            return userInput.ToUpper() == randomPattern ? true : false;
         }
 
         bool IsDodgedAttack()
