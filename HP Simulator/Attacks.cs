@@ -10,10 +10,11 @@ namespace HP_Simulator
     {
         public string AttackName { get; set; }
         public int AttackDamage { get; set; }
-        public List<Attacks> AttacksList { get; set; } = new List<Attacks>();
+        public List<Attacks> AttacksList { get; set; }
 
         public Attacks()
         {
+            AttacksList = new List<Attacks>();
         }
 
         public void RegisterAttacks()
