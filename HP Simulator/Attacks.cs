@@ -14,12 +14,6 @@ namespace HP_Simulator
 
         public Attacks()
         {
-
-        }
-
-        public Attacks(bool registerAttacks)
-        {
-            RegisterAttacks();
         }
 
         public void RegisterAttacks()
