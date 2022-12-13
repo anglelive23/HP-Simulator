@@ -12,7 +12,8 @@ namespace HP_Simulator
         public Attacks AttackModel { get; set; }
         public Simulator()
         {
-            AttackModel = new Attacks(true); // register Attacks upon initilizing
+            AttackModel = new Attacks();
+            AttackModel.RegisterAttacks();
             Simulate(); // Simulate the game
         }
 
